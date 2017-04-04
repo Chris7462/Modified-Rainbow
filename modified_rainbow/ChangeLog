@@ -1,0 +1,255 @@
+v 3.3
+
+1) Change my email address
+2) Modify the colorchoice = "gray" in the plot.fds function
+3) Fix the title field in the description file
+
+v 3.2
+
+1) Change my email address
+2) update hdr.info.2d and plothdr2d functions from the hdrcde package
+
+v 3.1
+
+
+1) Add depth.radius: a new functional depth measure proposed by Gervini (2012, Statistica Sinica)
+2) Update the fhdr function by adding x = data$x in the second line
+
+
+
+v 3.0
+
+
+
+1) Add projmethod option in the fboxplot
+
+2) Update the vignette
+
+
+
+v 2.9
+
+
+
+1) add vignette in the directory of inst/doc
+
+2) add demo folder
+
+
+
+v 2.8
+
+
+
+1) Update the latest monthly sea surface temperature data set, now is from Januaray 1950 to December 2011
+
+
+
+v 2.7
+
+
+
+1) Add summaryfunction to show quantiles of functional data and summary statistics
+
+
+
+v 2.6
+
+
+
+1) Update the ElNinosmooth manual file
+
+2) Update the ElNinosmooth data set
+
+
+
+v 2.5
+
+
+
+1) Update the ElNino data set
+
+2) Update the ElNinosmooth data set
+
+
+
+v 2.4
+
+
+
+1) Update the SVD function. The argument plot = FALSE would return a series of SVDs, reconstruction plot, and residual plot
+
+2) Update the plot.fds function. The argument plotlegend = TRUE would add a legend to the figure. When 
+
+   plot.type = "function", the legend displays the first curve, middle curve, last curve ordered by time.
+
+   When plot.type = "depth", the legend displays the least depth curve, middle depth curve and median curve.
+
+   When plot.type = "density", the legend displays the least populated curve, middle populated curve and mode curve
+
+3) Update the fboxplot function. The argument plotlegend = TRUE would add a legend to the figure
+
+4) Update rainbow:::bbag function to display principal component scores in eqscplot
+
+
+
+v 2.3.5
+
+
+
+1) Update plot.fds function
+
+
+
+v 2.3.4
+
+
+
+1) Update the SVDplot function
+
+2) Update the plot.fds function
+
+
+
+v 2.3.3
+
+
+
+1) Update the ElNinosmooth data
+
+
+
+v 2.3.2
+
+
+
+1) Update the ElNino data
+
+
+
+v 2.3 
+
+
+
+1) Delete col = "black" argument in lines.fds and points.fds
+
+2) Update col argument in plot.fds
+
+
+
+v 2.2
+
+
+
+1) Change the palatte() in plot.fds
+
+2) Update the lines.fds and points.fds
+
+
+
+v 2.1
+
+
+
+1) Update the lines.fds and points.fds
+
+2) Update the SVDplot
+
+
+
+v 2.0
+
+
+
+1) Update the plot.fds, when plot.type = "time"
+
+
+
+v 1.10
+
+
+
+1) Update the fboxplot 
+
+
+
+v 1.9
+
+
+
+1) Update the JCGS reference
+
+2) Add the ElNinosmooth data
+
+
+
+v 1.8 
+
+
+
+1) Update the SVDplot
+
+2) Added color options to rainbow:::bhdr
+
+
+
+v 1.7
+
+
+
+1) Delete the dependency of ks package
+
+2) Correct the SVDplot function
+
+3) Correct the fts function
+
+
+
+v 1.6
+
+
+
+1) Add the SVDplot function
+
+
+
+v 1.5
+
+
+
+1) Fix the missing data in the Australiafertility and Australiasmoothfertility
+
+2) Correct the yname in Australiafertility and Australiasmoothfertility
+
+3) Delete the Francemortality and Francesmoothmortality
+
+4) Update the references
+
+
+
+v 1.4
+
+
+
+1) Combine plot.fds and plot.sfts into one function
+
+2) Combine lines.fds and lines.sfts into one function
+
+3) Combine points.fds and points.sfts into one function
+
+4) sfts function takes argyment of a univariate time series
+
+
+
+v 1.3
+
+
+
+1) Update the ElNino details
+
+2) Add plot.fds, plot.sfts for plotting functional data, functional time series, and sliced functional time series
+
+3) Add lines.fds, lines.sfts for plotting
+
+4) Add points.fds, points.sfts for plotting
+

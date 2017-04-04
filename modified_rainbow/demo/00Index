@@ -1,0 +1,8 @@
+fds 		R code for creating functional data object
+fts 		R code for creating functional time series object
+sfts		R code for creating sliced functional time series object
+plot.fds	R code for plotting functional data object
+plot.fts	R code for plotting functional time series object
+plot.sfts 	R code for plotting sliced functional time series object
+fboxplot	R code for plotting bivariate bagplot and HDR boxplot, functional bagplot and HDR boxplot
+SVDplot		R code for plotting singular-value-decomposition plot
